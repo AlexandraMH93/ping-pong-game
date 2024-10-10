@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Ping Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="score">
+            <span id="player-score">0</span> : <span id="ai-score">0</span>
+        </div>
+        <div id="game-area">
+            <div id="player-paddle" class="paddle"></div>
+            <div id="ai-paddle" class="paddle"></div>
+            <div id="ball"></div>
+        </div>
+        <div id="game-over" class="hidden">
+            <h1>Game Over</h1>
+            <button id="restart-btn">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
